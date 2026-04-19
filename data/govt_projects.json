@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Dwarka Expressway (NPR)",
+    "type": "highway",
+    "city": "Gurgaon",
+    "latitude": 28.4595,
+    "longitude": 76.9580,
+    "signal_weight": 9.0,
+    "status": "Under Construction",
+    "horizon_months": 18,
+    "description": "29km expressway connecting Dwarka to Gurgaon, expected to boost realty prices 20-30%."
+  },
+  {
+    "name": "RRTS Delhi-Gurgaon-SNB Corridor",
+    "type": "metro",
+    "city": "Gurgaon",
+    "latitude": 28.4133,
+    "longitude": 76.9650,
+    "signal_weight": 9.5,
+    "status": "Approved",
+    "horizon_months": 48,
+    "description": "Regional Rapid Transit System connecting Delhi, Gurgaon, and SNB with high-speed rail."
+  },
+  {
+    "name": "Global City IT Hub — Sector 36B",
+    "type": "commercial_zone",
+    "city": "Gurgaon",
+    "latitude": 28.4297,
+    "longitude": 76.9863,
+    "signal_weight": 8.5,
+    "status": "Approved",
+    "horizon_months": 36,
+    "description": "1000-acre integrated township with IT park, residential zones, and commercial hub."
+  },
+  {
+    "name": "SPR (Southern Peripheral Road) Extension",
+    "type": "road",
+    "city": "Gurgaon",
+    "latitude": 28.3850,
+    "longitude": 76.9700,
+    "signal_weight": 7.0,
+    "status": "Tendered",
+    "horizon_months": 24,
+    "description": "Extension of SPR improving connectivity to Sohna and New Gurgaon sectors."
+  },
+  {
+    "name": "Sewage Treatment Plant — Sector 107",
+    "type": "utility",
+    "city": "Gurgaon",
+    "latitude": 28.4050,
+    "longitude": 76.9430,
+    "signal_weight": 4.5,
+    "status": "Tendered",
+    "horizon_months": 18,
+    "description": "100 MLD capacity STP serving new sectors along Dwarka Expressway."
+  },
+  {
+    "name": "Mumbai Metro Line 3 (Aqua Line)",
+    "type": "metro",
+    "city": "Mumbai",
+    "latitude": 19.0540,
+    "longitude": 72.8400,
+    "signal_weight": 9.5,
+    "status": "Under Construction",
+    "horizon_months": 24,
+    "description": "33.5km underground metro from Colaba to SEEPZ connecting major business hubs."
+  },
+  {
+    "name": "Navi Mumbai International Airport (NMIA)",
+    "type": "airport",
+    "city": "Mumbai",
+    "latitude": 18.9960,
+    "longitude": 73.1200,
+    "signal_weight": 10.0,
+    "status": "Under Construction",
+    "horizon_months": 30,
+    "description": "New international airport expected to transform Panvel-Ulwe realty market."
+  },
+  {
+    "name": "Mumbai Trans-Harbour Link (MTHL/Atal Setu)",
+    "type": "bridge",
+    "city": "Mumbai",
+    "latitude": 19.0175,
+    "longitude": 72.9650,
+    "signal_weight": 9.0,
+    "status": "Completed",
+    "horizon_months": 0,
+    "description": "21.8km sea bridge connecting Mumbai to Navi Mumbai, cutting travel time to 20 minutes."
+  },
+  {
+    "name": "Virar-Alibaug Multimodal Corridor",
+    "type": "highway",
+    "city": "Mumbai",
+    "latitude": 19.1200,
+    "longitude": 72.9800,
+    "signal_weight": 8.0,
+    "status": "Approved",
+    "horizon_months": 48,
+    "description": "126km corridor improving north-south Mumbai connectivity."
+  },
+  {
+    "name": "Thane Creek Sewage Infrastructure",
+    "type": "utility",
+    "city": "Mumbai",
+    "latitude": 19.1900,
+    "longitude": 72.9700,
+    "signal_weight": 5.0,
+    "status": "Tendered",
+    "horizon_months": 24,
+    "description": "Upgraded sewage and water supply network for Thane-Dombivli growth corridor."
+  },
+  {
+    "name": "Hyderabad Regional Ring Road (RRR)",
+    "type": "highway",
+    "city": "Hyderabad",
+    "latitude": 17.5500,
+    "longitude": 78.4000,
+    "signal_weight": 9.0,
+    "status": "Approved",
+    "horizon_months": 48,
+    "description": "340km outer ring connecting Sangareddy, Nalgonda, and Medak."
+  },
+  {
+    "name": "Hyderabad Pharma City SEZ",
+    "type": "commercial_zone",
+    "city": "Hyderabad",
+    "latitude": 17.2200,
+    "longitude": 78.6900,
+    "signal_weight": 8.5,
+    "status": "Under Construction",
+    "horizon_months": 36,
+    "description": "19,333-acre pharma manufacturing hub near Mucherla."
+  },
+  {
+    "name": "Metro Rail Phase-II Extension",
+    "type": "metro",
+    "city": "Hyderabad",
+    "latitude": 17.4500,
+    "longitude": 78.3500,
+    "signal_weight": 9.0,
+    "status": "Approved",
+    "horizon_months": 42,
+    "description": "Extending metro to Airport, Shamshabad, and Old City areas."
+  },
+  {
+    "name": "Outer Ring Road Service Roads & Junctions",
+    "type": "road",
+    "city": "Hyderabad",
+    "latitude": 17.4900,
+    "longitude": 78.5500,
+    "signal_weight": 6.5,
+    "status": "Tendered",
+    "horizon_months": 18,
+    "description": "Service road improvements and grade separators on ORR."
+  },
+  {
+    "name": "HMWSSB Water Grid Phase-3",
+    "type": "utility",
+    "city": "Hyderabad",
+    "latitude": 17.3800,
+    "longitude": 78.5200,
+    "signal_weight": 5.0,
+    "status": "Approved",
+    "horizon_months": 30,
+    "description": "Piped water supply expansion to 50+ peripheral localities."
+  },
+  {
+    "name": "East-West Metro Extension (Howrah-Salt Lake)",
+    "type": "metro",
+    "city": "Kolkata",
+    "latitude": 22.5726,
+    "longitude": 88.3639,
+    "signal_weight": 9.0,
+    "status": "Under Construction",
+    "horizon_months": 24,
+    "description": "16.6km underground metro connecting Howrah Maidan to Salt Lake Sector V."
+  },
+  {
+    "name": "Joka-BBD Bagh Metro (Purple Line)",
+    "type": "metro",
+    "city": "Kolkata",
+    "latitude": 22.4600,
+    "longitude": 88.3100,
+    "signal_weight": 8.5,
+    "status": "Under Construction",
+    "horizon_months": 30,
+    "description": "Extended metro line improving south Kolkata connectivity."
+  },
+  {
+    "name": "New Town IT Hub Expansion",
+    "type": "commercial_zone",
+    "city": "Kolkata",
+    "latitude": 22.5900,
+    "longitude": 88.4700,
+    "signal_weight": 8.0,
+    "status": "Approved",
+    "horizon_months": 36,
+    "description": "Expansion of Rajarhat New Town IT corridor with new office parks."
+  },
+  {
+    "name": "Diamond Harbour Road Flyover Complex",
+    "type": "road",
+    "city": "Kolkata",
+    "latitude": 22.5100,
+    "longitude": 88.3200,
+    "signal_weight": 6.5,
+    "status": "Tendered",
+    "horizon_months": 24,
+    "description": "Multi-lane flyover reducing Behala-CBD commute time."
+  },
+  {
+    "name": "East Kolkata Wetlands Sewage Modernization",
+    "type": "utility",
+    "city": "Kolkata",
+    "latitude": 22.5400,
+    "longitude": 88.4100,
+    "signal_weight": 4.5,
+    "status": "Approved",
+    "horizon_months": 24,
+    "description": "Modernized waste treatment protecting wetland ecosystem while serving eastern suburbs."
+  }
+]

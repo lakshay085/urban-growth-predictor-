@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urban Growth Predictor — Real Estate Hotspot Forecasting</title>
+  <meta name="description" content="Predictive geospatial analytics engine that identifies future real estate hotspots by correlating market data with government infrastructure signals." />
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Leaflet Heatmap plugin -->
+  <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+
+  <!-- Dashboard styles -->
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+  <!-- Loading Overlay -->
+  <div class="loading-overlay" id="loading-overlay">
+    <div class="loading-spinner"></div>
+    <div class="loading-text">Analyzing growth corridors…</div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="header-left">
+      <div class="header-text">
+        <h1>Urban Growth Predictor</h1>
+        <span class="subtitle">Predictive Hotspot Forecasting</span>
+      </div>
+    </div>
+    <div class="stat-bar">
+      <div class="stat-card hotspot-card">
+        <span class="value" id="stat-hotspots">—</span>
+        <span class="label">Hotspots</span>
+      </div>
+      <div class="stat-card emerging-card">
+        <span class="value" id="stat-emerging">—</span>
+        <span class="label">Emerging</span>
+      </div>
+      <div class="stat-card watch-card">
+        <span class="value" id="stat-watch">—</span>
+        <span class="label">Watch</span>
+      </div>
+      <div class="stat-card">
+        <span class="value" id="stat-total">—</span>
+        <span class="label">Total Zones</span>
+      </div>
+      <div class="stat-card">
+        <span class="value" id="stat-avg-score">—</span>
+        <span class="label">Avg Score</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Controls Bar -->
+  <div class="controls">
+    <select id="city-filter">
+      <option value="">All Cities</option>
+    </select>
+
+    <div class="separator"></div>
+
+    <div class="category-filters">
+      <label>
+        <input type="checkbox" value="Hotspot" checked />
+        <span class="dot hotspot"></span> Hotspot
+      </label>
+      <label>
+        <input type="checkbox" value="Emerging" checked />
+        <span class="dot emerging"></span> Emerging
+      </label>
+      <label>
+        <input type="checkbox" value="Watch" checked />
+        <span class="dot watch"></span> Watch
+      </label>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="toggle-group">
+      <label class="toggle">
+        <div class="toggle-switch">
+          <input type="checkbox" id="heatmap-toggle" checked />
+          <span class="toggle-track"></span>
+        </div>
+        Heatmap
+      </label>
+      <label class="toggle">
+        <div class="toggle-switch">
+          <input type="checkbox" id="govt-toggle" checked />
+          <span class="toggle-track"></span>
+        </div>
+        Govt Projects
+      </label>
+    </div>
+  </div>
+
+  <!-- Map Container -->
+  <div class="map-container">
+    <div id="map"></div>
+
+    <!-- Leaderboard -->
+    <div class="leaderboard" id="leaderboard">
+      <div class="leaderboard-header" id="leaderboard-toggle">
+        <h3>🏆 Top Growth Zones</h3>
+        <span class="chevron">▲</span>
+      </div>
+      <div class="leaderboard-body" id="leaderboard-body"></div>
+    </div>
+
+    <!-- Legend -->
+    <div class="map-legend">
+      <div class="legend-title">Zone Categories</div>
+      <div class="legend-item"><span class="legend-dot hotspot"></span> Hotspot (66–100)</div>
+      <div class="legend-item"><span class="legend-dot emerging"></span> Emerging (33–66)</div>
+      <div class="legend-item"><span class="legend-dot watch"></span> Watch (0–33)</div>
+      <div class="legend-item"><span class="legend-dot govt"></span> Govt Project</div>
+    </div>
+  </div>
+
+  <!-- Side Panel -->
+  <div id="panel" class="panel hidden">
+    <div class="panel-header">
+      <div>
+        <h2 id="panel-locality">—</h2>
+        <div class="city-label" id="panel-city">—</div>
+      </div>
+      <button id="panel-close">✕</button>
+    </div>
+    <div class="panel-body" id="panel-body"></div>
+  </div>
+
+  <script src="/static/map.js"></script>
+</body>
+</html>
